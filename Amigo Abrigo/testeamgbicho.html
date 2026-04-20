@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amigo Bicho</title>
+<link rel="stylesheet" href="abrigoamigo.css">
+<script src="abrigoamigo.js"></script>
+</head>
+
+<body>
+
+<header>
+<img src="imagem_logo.jpeg" width="120px" height="120px">
+<h1>Amigo Bicho</h1>
+<p>Resgatando vidas, encontrando lares</p>
+<p>@abrigoamigobicho</p>
+</header>
+
+<nav>
+<a onclick="mostrar('inicio')">Início</a>
+<a onclick="mostrar('sobre')">Sobre</a>
+<a onclick="mostrar('adocao')">Adoção</a>
+<a onclick="mostrar('apadrinhar')">Apadrinhar</a>
+<a onclick="mostrar('voluntario')">Voluntário</a>
+<a onclick="mostrar('contato')">Contato</a>
+</nav>
+
+<!-- INICIO -->
+<section id="inicio" class="active">
+<h2>Bem-vindo</h2>
+<p>Conheça nossos cães e ajude a transformar vidas através da adoção e apoio.</p>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre" >
+<h2>Nossa História</h2>
+
+<p>
+Tudo começou em 2020, durante a pandemia, quando Maria Eduarda realizou seu primeiro resgate.
+Um cachorro apareceu na porta de sua casa e permaneceu por dias. A princípio, a intenção era encontrar um lar para ele,
+mas logo foi descoberto que o animal estava doente.
+</p>
+
+<p>
+Foi criada uma página no Instagram para arrecadar doações. O cachorro recebeu cuidados,
+mas infelizmente faleceu poucas semanas depois.
+</p>
+
+<p>
+Mesmo com a perda, surgiu a decisão de ajudar outros animais — e o trabalho não parou mais.
+</p>
+
+<p>
+Em outubro de 2020, com oito cães resgatados, nasceu o abrigo na laje da casa da fundadora.
+Após quatro anos, mudou-se para Aldeia, onde continua atuando.
+</p>
+
+<h3>Missão</h3>
+<p>Resgatar, cuidar e promover a adoção responsável.</p>
+
+<h3>Visão</h3>
+<p>Expandir o impacto social.</p>
+
+<h3>Valores</h3>
+<ul>
+<li>Amor</li>
+<li>Responsabilidade</li>
+<li>Transparência</li>
+</ul>
+</section>
+
+<!-- ADOÇÃO -->
+<section id="adocao">
+<h2>Cães para Adoção</h2>
+
+<div class="search">
+<input placeholder="Buscar..." onkeyup="buscar(this.value)">
+</div>
+
+<div class="container">
+
+<div class="card">
+<img src="charlotte.jpg">
+<div class="card-content">
+<h3>Charlotte</h3>
+<p>
+Charlotte é aquela cachorrinha que chega trazendo vida pra qualquer ambiente.
+Jovem, com aproximadamente 1 ano e meio, porte médio (9kg) e castrada.
+Já passou por abandono e hoje busca um lar com amor.
+</p>
+<button onclick="mostrar('formulario')">Adotar</button>
+</div>
+</div>
+
+<div class="card">
+<img src="costelinha.jpg">
+<div class="card-content">
+<h3>Costelinha</h3>
+<p>
+Muito frágil, com apenas 4 meses, precisa de cuidados urgentes,
+tratamento e apoio para se recuperar.
+</p>
+<button onclick="mostrar('formulario')">Adotar</button>
+</div>
+</div>
+
+<div class="card">
+<img src="alala.jpg">
+<div class="card-content">
+<h3>Alala</h3>
+<p>
+Extremamente debilitada, passou por exames importantes e aguarda resultados.
+Existe preocupação com sua sobrevivência e com os custos do tratamento.
+</p>
+<button onclick="mostrar('formulario')">Adotar</button>
+</div>
+</div>
+
+<div class="card">
+<img src="caramelos.jpg">
+<div class="card-content">
+<h3>Família Caramelo</h3>
+<p>
+Grupo de cães resgatados das ruas que aguardam uma nova chance em um lar seguro.
+</p>
+<button onclick="mostrar('formulario')">Adotar</button>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- FORM -->
+<section id="formulario">
+<h2>Formulário de Adoção</h2>
+
+<div class="step active">
+<input placeholder="Nome">
+<input placeholder="Idade">
+<button onclick="next(1)">Próximo</button>
+</div>
+
+<div class="step">
+<input placeholder="Email">
+<input placeholder="Cidade">
+<button onclick="next(2)">Próximo</button>
+</div>
+
+<div class="step">
+<textarea placeholder="Por que deseja adotar?"></textarea>
+<button onclick="alert('Enviado')">Enviar</button>
+</div>
+
+</section>
+
+<!-- APADRINHAR -->
+<section id="apadrinhar">
+<h2>Apadrinhe</h2>
+<p>Ajude mensalmente com alimentação e cuidados dos animais.</p>
+</section>
+
+<!-- VOLUNTÁRIO -->
+<section id="voluntario">
+<h2>Voluntariado</h2>
+<form>
+<input placeholder="Nome">
+<input placeholder="Email">
+<textarea placeholder="Como pode ajudar"></textarea>
+<button>Enviar</button>
+</form>
+</section>
+
+<!-- CONTATO -->
+<section id="contato">
+<h2>Contato</h2>
+<form>
+<input placeholder="Nome">
+<input placeholder="Email">
+<textarea placeholder="Mensagem"></textarea>
+<button>Enviar</button>
+</form>
+</section>
+
+<footer>
+<p>Equipe: Bruna Maria, Giovanna Almeida, Heloisa Oliveira, Matheus Oliveira, Miran Cordeiro, Carolina Mazzaropi</p>
+</footer>
+
+
+</body>
+</html>
