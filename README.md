@@ -1,3 +1,17 @@
+
+## 🧠 Processo de Desenvolvimento e Aprendizados
+
+Este projeto foi uma grande oportunidade para expandir meus horizontes tecnológicos. Como meu foco atual de estudos está em **HTML, CSS e JavaScript puro**, foi utilizado a IA **LOVEBLE** como mentora no processo de arquitetura.
+
+A ferramenta gerou a estrutura do site utilizando **React e TypeScript**. Embora eu ainda não tenha aprendido essas tecnologias a fundo na minha grade de ADS, fiz questão de analisar o código gerado para entender:
+*   Como funciona a componentização no ecossistema do React.
+*   A importância da tipagem estática trazida pelo TypeScript.
+*   A organização de pastas em projetos de nível profissional.
+
+Essa experiência me deu uma visão clara dos meus próximos passos de estudo no ecossistema Web.
+
+
+
 # 🐾 Abrigo Amigo Bicho
 
 > **Onde o amor encontra um lar. Resgate. Cuide. Transforme.**
@@ -137,30 +151,3 @@ Configurado em `src/routes/index.tsx` via `head()`:
 
 ---
 
-## 🚀 Desenvolvimento
-
-```bash
-# Instalar dependências
-bun install
-
-# Rodar em dev
-bun dev
-
-# Build de produção
-bun run build
-```
-
----
-
-## 🛣️ Próximos passos sugeridos
-
-- [ ] **Formulário de leads** com seleção de interesse (adotar / doar / voluntariar)
-- [ ] Integração com **Lovable Cloud** para persistir leads em banco
-- [ ] Página dedicada `/animais` com catálogo dos pets disponíveis
-- [ ] Blog de histórias de resgate (`/historias`)
-- [ ] Integração com gateway de pagamento para doações recorrentes
-- [ ] Painel administrativo para a equipe do abrigo
-
----
-
-Feito com 💚 para transformar vidas — humanas e de quatro patas.
